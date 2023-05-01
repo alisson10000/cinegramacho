@@ -1,0 +1,19 @@
+select  DISTINCT nome_filme ,descricao_filme,ano_filme,nome_genero  from generos g 
+inner JOIN filmes_has_generos fg
+ON
+g.id_genero=fg.id_genero
+INNER JOIN filmes f 
+ON
+f.id_filme=fg.id_filme
+WHERE nome_filme="matrix"
+
+union
+
+select  nome_genero from generos g 
+inner JOIN filmes_has_generos fg
+ON
+g.id_genero=fg.id_genero
+INNER JOIN filmes f 
+ON
+f.id_filme=fg.id_filme
+WHERE nome_filme="matrix"

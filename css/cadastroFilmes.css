@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/08/2016, 18:21:07
+    Author     : Administrador
+*/
+
+div#conteudoCadastroFilme{
+  
+    width:1024px;
+    height:600px;
+    padding-top:0x;
+   
+  margin: auto;
+  
+
+}
+
+div#cadastroFilme{
+    width:1024px;
+    height: 600px;
+   
+    margin: auto;
+
+}
+div#cadastroFilme fieldset{
+    width: 680px;
+    float: left;
+}
+div#listagemFilmes{
+    width:280px;
+    height: 400px;
+    float: right;
+    border: 2px solid #999999;
+    border-radius: 5px;
+    overflow: scroll;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+div#listagemFilmes img {
+    width: 30px;
+    height: 30px;
+}

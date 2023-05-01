@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/06/2017, 11:53:48
+    Author     : Administrador
+*/
+
+div.conteudoEditarFilme{
+
+    width: 1024px;
+    height: 300px;
+
+    /* padding-top: 5%;*/
+
+
+}
+
+DIV.conteudoEditarFilme input[type=text], div.conteudoEditarFilme textArea{
+    outline: none;
+    height: 30px;
+
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 2px 5px 2px #bec0c2;
+
+
+}
+DIV.conteudoEditarFilme input[att=codigo]{
+    width:100px;
+    height: 60px;
+}
+DIV.conteudoEditarFilme input[att=titulo], DIV.conteudoEditarFilme textarea[att=descricao]{
+    width: 200px;
+    height: 60px;
+}
+DIV.conteudoEditarFilme input[att=ano]{
+    width: 50px;
+    height: 60px;
+}
+
+div.conteudoEditarFilme textArea{
+    height: 60px;
+    resize: none;
+    text-indent: 2.5em;
+
+    text-align: justify;
+
+}
+DIV.conteudoEditarFilme button{
+    outline: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px #bec0c2;
+    font-family: cursive;
+    font-weight: bold;
+    border-style: none;
+}
+div.conteudoEditarFilme button:hover{
+    cursor: pointer;
+}
+
+.errorEdicao{
+
+    border: 1px solid red;    
+    background: #ffbac3; 
+
+}
+.listaFilmesEdicao{
+
+    margin-top: 2%;
+    padding-top: 2%;
+
+    padding-right: 2%;
+    padding-bottom:2%;
+    margin-bottom: 2%;
+    width:  100%;
+    height:200px;
+    box-shadow: 2px 2px 5px 2px #bec0c2;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.resultadoEdicao{
+    margin-top: 5%;
+    width: 100%;
+    height:auto;
+    background: #c8eec8;
+    border: 1px solid #102b10;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px 2px #2a592a;
+    padding-left: 2%;
+    padding-top: 2%;
+    /*  overflow: scroll;
+      overflow-x: hidden;*/
+
+
+
+}
+
+
+div.conteudoEditarFilme .codigo, 
+.nomeFilme,
+.descricaoFilme, 
+div.conteudoEditarFilme .anoFilme{
+
+    width:100px;
+
+
+}
+.nomeFilme, .descricaoFilme{
+    width:200px;
+}
+.ano filme{
+
+}
+
+.listaFilmesEdicao img{
+    width:50px;
+    height:60px;
+}

@@ -1,0 +1,5 @@
+header('Content-Type: text/html; charset=utf-8);
+mysql_query("SET NAMES 'utf-8'");
+mysql_query('SET charset_set_connection=utf8');
+mysql_query('SET charset_set_client=utf8');
+mysql_query('SET charset_set_results=utf8');

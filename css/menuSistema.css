@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/08/2016, 18:33:21
+    Author     : Administrador
+*/
+div#navegacaoSistemaConteudo{
+    border: 1px solid transparent;
+    width: 1024px;
+    margin: auto;
+    margin-top: -45px;
+  
+
+
+}
+
+div#navegacaoSistema span{
+    display: block;
+    padding-left: 15px;
+    transition: all 0.8s ease;
+    font-weight: bold;
+}
+div#navegacaoSistema span {
+ 
+    
+}
+div#navegacaoSistema span:hover{
+    background: #d0d0d0;
+    color: red;
+    cursor: pointer;
+
+}
+
+div#navegacaoSistema{
+    text-transform: capitalize;
+    border: 2px solid #999999;
+    border-radius: 5px;
+    width:400px;
+    height:200px;/* Aqui altera os valores quando inserir itens no menu para ajustar tamanho*/
+    margin-top:-100px;
+    background-color: black;
+    transition: all 0.5s ease;
+   
+
+    padding-top: 10px;
+
+
+
+}
+div#navegacaoSistema:after{
+   
+}
+
+div#navegacaoSistema:hover{
+    margin-top: 100px;
+    width:400px;
+    height:170px;
+    background:linear-gradient(to top,white, black);
+
+    
+
+
+    background: #821e00; /* Old browsers */
+    background: -moz-linear-gradient(top,  #821e00 0%, #b81c00 50%, #a61c00 51%, #fe2200 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#821e00), color-stop(50%,#b81c00), color-stop(51%,#a61c00), color-stop(100%,#fe2200)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #821e00 0%,#b81c00 50%,#a61c00 51%,#fe2200 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #821e00 0%,#b81c00 50%,#a61c00 51%,#fe2200 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #821e00 0%,#b81c00 50%,#a61c00 51%,#fe2200 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #821e00 0%,#b81c00 50%,#a61c00 51%,#fe2200 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#821e00', endColorstr='#fe2200',GradientType=0 ); /* IE6-9 */
+
+
+
+}
+div#navegacaoSistema h4{
+    margin-top:10px;
+    color: white;
+
+
+    transition: all 0.5s ease;  
+   margin-top: 20px;
+  
+}
+div#navegacaoSistema:hover h4{
+    visibility: hidden;
+
+}
+div#navegacaoSistema a{
+    text-decoration: none;
+    color: white;
+    text-shadow:2px 2px 2px black;
+
+}
+div#cadastroSerieConteudoGeral input[att=series]{
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-family: cursive;
+    color: #c1c1ff;
+    background: #821e00;
+    border-radius:3px;
+    outline: none;
+    border: 2px outset #686868;
+    cursor: pointer;
+} 

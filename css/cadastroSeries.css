@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/08/2016, 01:59:16
+    Author     : Administrador
+*/
+
+div#cadastroSerieConteudoGeral{
+    width:1024px;
+    height: 600px;
+    padding-top:100px;
+    margin: auto;  
+
+
+}
+
+
+div#cadastroSerieConteudoGeral fieldset{
+    width:680px;
+    float: left;
+}
+
+
+
+
+
+div#cadastroSerie,div#cadastroTemporada, div#cadastroEpisodio{
+    width: 600px;
+    height: 700px;
+    float: left;
+    display: block;
+    margin-top:25px;
+
+
+
+
+
+}
+div#cadastroTemporada, div#cadastroEpisodio{
+    display:none;
+
+}
+div#resultadoCadastroSerie{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb8b5+0,ffb2af+85,ffaaa7+100 */
+    background: #ffb8b5; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffb8b5 0%, #ffb2af 85%, #ffaaa7 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffb8b5 0%,#ffb2af 85%,#ffaaa7 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffb8b5 0%,#ffb2af 85%,#ffaaa7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb8b5', endColorstr='#ffaaa7',GradientType=0 ); /* IE6-9 */
+
+    width:500px;
+    height:50px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+    border-radius: 5px;
+
+    box-shadow: 2px 2px 5px 2px black;
+
+    margin-left: 3%;
+    margin-top: 5%;
+
+    visibility: hidden;
+    line-height: 50px;
+    margin-left: 3%;
+    margin-top: 5%;
+    text-align: center;
+
+
+}
+/*
+Estilo dos botões que selecionas as ações de cadastro das séries
+*/
+

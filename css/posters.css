@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/08/2015, 12:08:59
+    Author     : Administrador
+*/
+
+.poster{
+    width: 140px;
+    height:200px;
+    border: 04px solid #cccccc;
+    border-radius: 5px;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+
+}
+.poster img{
+    width: 100%;
+    height: 100%;
+}
+
+
+div.descricao_serie_principal img{
+   width:15%; 
+   height: 75%;
+   float: left;
+   margin-right: 3%;
+   margin-bottom:1%;
+}
+div.descricao img{
+    width: 15%;
+    height: 25%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+div.descricao_serie img{
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    box-shadow: 2px 2px 2px 2px black;
+}
+div#assistindo_episodio img{
+    float: left;
+    width: 20%;
+    height:50%;
+    margin-left: 1%;
+    margin-right: 3%;
+    margin-bottom:1%;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+

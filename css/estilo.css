@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/07/2015, 10:04:52
+    Author     : Administrador
+*/
+
+*{
+    margin-top: 0px;
+}
+
+::root{
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+body{
+
+
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black;
+
+}
+.fotoTopo  {
+    width:25px;
+    height: 25px;
+    border-radius: 12.5px;
+    display: inline;
+
+}
+
+.topo{
+    /*    border: 01px solid red;*/
+
+    height:50px;
+
+
+
+
+
+}
+.conteudo_topo{
+    display: inline;
+    text-transform: uppercase;
+    color: red;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 1.5em;
+    text-shadow:1px 1px 1px white;
+    font-weight: bold;
+    width: 300px;
+
+
+}
+.conteudo_geral{
+    height:920px;
+    width:100%;
+    background-color:black;
+    margin: auto;
+    -webkit-box-shadow: 0 0 15px 5px #929494;
+    box-shadow: 0 0 15px 5px #929494;
+    border-radius: 4px;
+    margin-top: 1%;
+    position: relative;
+    padding-left: 0px;
+
+}
+.conteudo_pagina {
+    height: 720px;
+    width:100%;
+    background-color:black;
+    margin-top: 1%;
+    padding-top: 1%;
+}
+.busca{
+
+    float: right;
+
+
+
+}
+.busca input[type=text]{
+    border-radius:4px;
+    border-color: #cccccc;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: black;
+
+    width:600px;
+    float: left;
+    height: 40px;
+
+}
+
+textarea{
+    background:#cccccc;
+    width:150px;
+    height: 40px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+}
+
+.busca input[type=text]:hover, textarea:hover{
+    background: #ffffff;
+    border:1px solid #990000;
+}
+
+.busca input[type=submit]{
+    background:#006699;
+    color:#ffffff;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    width: 100px;
+    text-transform: uppercase;
+    height: 45px;
+}
+.busca input[type=button]{
+    background:#006699;
+    color:#ffffff;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    width: 50px;
+    text-transform: uppercase;
+    height: 45px;
+    float: left;
+    background-image: url("../img/lupa.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+#paginacao{
+    border: 01px solid black;
+    width: 800px;
+    height: 30;
+    float: left;
+}
+div#assistindo_episodio{
+
+    width: 900px;
+    height: 600px;
+    position: absolute;
+}

@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/03/2016, 20:47:41
+    Author     : Administrador
+*/
+
+div.descricao{
+
+
+    width:800px;
+
+    margin-top: 40px;
+    padding-left: 15px;
+
+
+
+}
+
+
+div.descricao p{
+    text-indent: 2.5em;
+    text-align: justify; 
+}
+div.descricao_serie_principal{
+
+    float: left;
+    height: 300px;
+    width: 800px;
+    left: 1%;
+    float: left;
+    box-shadow: 2px 2px 15px 2px black;
+    overflow: scroll;
+    overflow-x: hidden;
+    float: left;
+}
+
+
+div.descricao h1, div.descricao_serie h1{
+    text-transform: capitalize;
+    color:#ff3333;
+}
+div.descricao h2, div.descricao_serie h2{
+    text-transform: capitalize;
+    color:#0000cc;
+    font-size: 100%;
+}
+div#assistindo_episodio h2{
+    color: red;
+    text-transform: capitalize;
+}
+div#assistindo_episodio h3{
+    color: #0000cc;
+    text-transform: capitalize;
+}
+
+div#assistindo_episodio p{
+
+    text-indent:1em;
+    text-align: justify;
+
+}
+
+div#assistindo_episodio p:first-letter{
+
+    font-size:2em;
+    color:red;
+    font-weight: bolder;
+
+}
+div#cadastroFilmeOk, div#cadastroFilmeNo{
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background: linear-gradient(to right, #666666 , white);
+    opacity: 0.8;
+ 
+    font-weight: bold;
+    size: 2.5em;
+    vertical-align: central;
+    color: black;
+    padding-bottom: 15px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px 2px black;
+    margin-left:25%;
+    transition: all 1s ease;
+    display: none;
+}
+
+div#cadastroFilmeNo{
+     background: linear-gradient(to left, red, white);
+}
+

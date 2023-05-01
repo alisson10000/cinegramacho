@@ -1,0 +1,52 @@
+div#menu{
+
+    width:900px;
+    height: 39px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: -13px;
+}
+div#menu ul{
+    border: 02px solid #cccccc;
+    border-radius: 5px;
+    width:900px;
+    height: 39px;
+    background-color:  black;
+    padding-left: 0px;
+
+}
+
+div#menu li{
+    display:block;
+
+
+
+
+}
+div#menu a {
+    color:white;
+
+    font-size: 10px ;
+    font-family:"Trebuchet Ms" , arial , serif, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:14px 40px;
+
+    float: left;
+
+
+} 
+div#menu a:hover {
+    color:white;
+    background-color:  #cccccc;
+    -webkit-transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -ms-transition:all .7s ease;
+    transition: all .7s ease;
+    cursor: text;
+    
+
+}
+
+/*/color:black;*/
+    

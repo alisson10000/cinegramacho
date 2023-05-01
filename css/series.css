@@ -1,0 +1,208 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/06/2016, 13:07:51
+    Author     : alisson
+*/
+div.conteudo_series{
+    margin-top:15px;
+    position: absolute;
+    margin-top:320px;
+    width: 1000px;
+    height: 400px;
+
+}
+
+div.conteudo_series input[type=button] {
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: cursive ;
+    font-weight: bold;
+    font-size: 100%;
+    color:#6587ba;
+    border:2px;
+    border-color: #6587ba;
+    border-style: outset;
+    outline: none;
+
+}
+div.conteudo_series ul{
+    list-style: none;
+    padding-left: 15px;
+}
+
+div.conteudo_series li{
+    margin-top: 5px;
+    padding-left: 15px;
+
+}
+div.conteudo_series li:before{
+
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+    width: 0; 
+    height: 0; 
+
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid black;
+
+}
+div.conteudo_series li:hover::before{
+
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px;
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid red;
+}
+div.conteudo_series  li:hover{
+    cursor: pointer;
+    margin-top: 5px;
+
+
+}
+#textos_temporadas{
+    /*
+    resumo da temporada
+    */
+    width: 800px;
+    height:152px;
+    margin-left:0px;
+
+    border-radius: 5px;
+    margin-top: 5px;
+    position: absolute;
+    display:none;
+    z-index: 10;
+    background-color: white;
+    overflow: scroll;
+    overflow-x: hidden;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+#textos_temporadas p{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-indent: 2.5em;
+
+
+}
+#textos_temporadas p:first-letter{
+    font-size:2em;
+    color: red;
+}
+#textos_temporadas button[type=button]{
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: cursive ;
+    font-weight: bold;
+    font-size: 100%;
+    color:#6587ba;
+    border:2px;
+    border-color: transparent;
+    border-style: outset;
+    outline: none;
+    background-color: #ff839c;
+
+}
+
+#episodios{
+    /*
+    Link dos episódios
+    */
+
+    width: 800px;
+    height:150px;
+    margin-left:0px;
+    overflow: scroll;
+    overflow-x: hidden;
+    display:none;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-top: 5px;
+    border-radius: 5px;
+
+
+}
+#episodios li a{
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: cursive ;
+    font-weight: bold;
+    font-size: 100%;
+    color:#6587ba;
+    border:2px;
+    border-color: transparent;
+    border-style: outset;
+    outline: none;
+    background-color:#6dbaba ;
+    text-decoration: none;
+}
+#descricao_episodio{
+    /*
+    sinopse de cada episodio
+    */
+
+
+    width:800px;
+    height:150px;
+    margin-left:0px;
+    position: absolute;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-indent: 2.5em;
+    margin-top:10px;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 5px;
+
+}
+#descricao_episodio p{
+    padding-left: 2%;
+
+}
+
+
+#descricao_episodio p:first-letter{
+    font-size:2em;
+    color: red;
+
+}
+#episodios::-webkit-scrollbar,
+#textos_temporadas::-webkit-scrollbar,
+#descricao_episodio::-webkit-scrollbar
+
+
+
+{
+    background-color: #6dbaba;
+    width: 10px;
+}
+#episodios::-webkit-scrollbar-thumb,
+#textos_temporadas::-webkit-scrollbar-thumb,
+#descricao_episodio::-webkit-scrollbar-thumb
+{
+    background-color: #6587ba;
+    border-radius: 5px;
+}
+#episodios::-webkit-scrollbar-button,
+#textos_temporadas::-webkit-scrollbar-button,
+#descricao_episodio::-webkit-scrollbar-button
+{
+    background-color: #6587ba;
+
+}

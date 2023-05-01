@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/08/2016, 16:59:49
+    Author     : Administrador
+*/
+
+/*
+
+Css referente ao topo da página login
+
+*/
+
+
+
+
+
+
+body{
+    margin:  0px 0px 0px 0px;
+}
+
+
+div#topoLogin {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 40px;
+    background: #821e00; /* Old browsers */
+    background: -moz-linear-gradient(top,  #821e00 0%, #b81c00 50%, #a61c00 51%, #fe2200 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#821e00), color-stop(50%,#b81c00), color-stop(51%,#a61c00), color-stop(100%,#fe2200)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #821e00 0%,#b81c00 50%,#a61c00 51%,#fe2200 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #821e00 0%,#b81c00 50%,#a61c00 51%,#fe2200 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #821e00 0%,#b81c00 50%,#a61c00 51%,#fe2200 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #821e00 0%,#b81c00 50%,#a61c00 51%,#fe2200 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#821e00', endColorstr='#fe2200',GradientType=0 ); /* IE6-9 */
+
+
+}
+div#topoLogin h1{
+    width:1024px;
+    margin: auto;
+    text-transform: uppercase;
+    color: white;
+    text-shadow:2px 2px 2px black;
+    height: 40px;
+}
+div#conteudoGeralLogin{
+    width: 1024px;
+    height: 600px;
+    margin: auto;
+   
+}
+
