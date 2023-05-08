@@ -38,7 +38,7 @@ $consultaTotal = $catalogoPrincipal->contaOcorrencias("select * from filmes");
 $numTotal = $consultaTotal;
 $totalPagina = ceil($numTotal / $quantidade);
 
-echo '<div id="paginacao"><a href="?pagina=1">Primeira página</a>';
+echo '<div class="paginacao"><a href="?pagina=1">Primeira página</a>';
 
 for ($i = 1; $i <= $totalPagina; $i++) {
 
